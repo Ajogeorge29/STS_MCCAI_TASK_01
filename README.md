@@ -5,6 +5,9 @@ Bathini2[0009−0007−1011−3761]
 1 DiceMed, Odisha, India.
 2 Indian Institute of Technology Kharagpur, West Bengal, India
 drajo_george@dicemed.in, sadhvik.ini@gmail.com
+
+
+
 Abstract. This paper presents a solution for the Semi-supervised Teeth
 Segmentation and Registration (STSR) 2025 Challenge, which focused
 on the precise segmentation of teeth and pulp root canals in 3D Cone
