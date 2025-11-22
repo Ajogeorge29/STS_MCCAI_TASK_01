@@ -1,0 +1,250 @@
+/content/nnUNet
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+There are 40 cases in the source folder
+I am processing 0 out of 1 (max process ID is 0, we start counting with 0!)
+There are 40 cases that I would like to predict
+
+Predicting STS25_Validation_0001:
+perform_everything_on_device: True
+100% 36/36 [00:33<00:00,  1.08it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0001
+
+Predicting STS25_Validation_0002:
+perform_everything_on_device: True
+100% 336/336 [05:09<00:00,  1.08it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0002
+
+Predicting STS25_Validation_0003:
+perform_everything_on_device: True
+100% 336/336 [05:18<00:00,  1.06it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0003
+
+Predicting STS25_Validation_0004:
+perform_everything_on_device: True
+100% 336/336 [05:21<00:00,  1.05it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0004
+
+Predicting STS25_Validation_0005:
+perform_everything_on_device: True
+100% 336/336 [05:27<00:00,  1.03it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0005
+
+Predicting STS25_Validation_0006:
+perform_everything_on_device: True
+100% 336/336 [05:28<00:00,  1.02it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0006
+
+Predicting STS25_Validation_0007:
+perform_everything_on_device: True
+100% 336/336 [05:27<00:00,  1.03it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0007
+
+Predicting STS25_Validation_0008:
+perform_everything_on_device: True
+100% 336/336 [05:27<00:00,  1.03it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0008
+
+Predicting STS25_Validation_0009:
+perform_everything_on_device: True
+100% 336/336 [05:27<00:00,  1.03it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0009
+
+Predicting STS25_Validation_0010:
+perform_everything_on_device: True
+100% 336/336 [05:27<00:00,  1.03it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0010
+
+Predicting STS25_Validation_0011:
+perform_everything_on_device: True
+100% 240/240 [03:56<00:00,  1.01it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0011
+
+Predicting STS25_Validation_0012:
+perform_everything_on_device: True
+100% 36/36 [00:35<00:00,  1.02it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0012
+
+Predicting STS25_Validation_0013:
+perform_everything_on_device: True
+100% 288/288 [04:41<00:00,  1.02it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0013
+
+Predicting STS25_Validation_0014:
+perform_everything_on_device: True
+100% 336/336 [05:27<00:00,  1.03it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0014
+
+Predicting STS25_Validation_0015:
+perform_everything_on_device: True
+100% 240/240 [03:56<00:00,  1.01it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0015
+
+Predicting STS25_Validation_0016:
+perform_everything_on_device: True
+100% 240/240 [03:55<00:00,  1.02it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0016
+
+Predicting STS25_Validation_0017:
+perform_everything_on_device: True
+100% 240/240 [03:56<00:00,  1.02it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0017
+
+Predicting STS25_Validation_0018:
+perform_everything_on_device: True
+100% 240/240 [03:56<00:00,  1.01it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0018
+
+Predicting STS25_Validation_0019:
+perform_everything_on_device: True
+100% 240/240 [03:56<00:00,  1.02it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0019
+
+Predicting STS25_Validation_0020:
+perform_everything_on_device: True
+100% 240/240 [03:55<00:00,  1.02it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0020
+
+Predicting STS25_Validation_0021:
+perform_everything_on_device: True
+100% 336/336 [05:27<00:00,  1.02it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0021
+
+Predicting STS25_Validation_0022:
+perform_everything_on_device: True
+100% 336/336 [05:27<00:00,  1.03it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0022
+
+Predicting STS25_Validation_0023:
+perform_everything_on_device: True
+100% 336/336 [05:27<00:00,  1.03it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0023
+
+Predicting STS25_Validation_0024:
+perform_everything_on_device: True
+100% 336/336 [05:27<00:00,  1.03it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0024
+
+Predicting STS25_Validation_0025:
+perform_everything_on_device: True
+100% 336/336 [05:27<00:00,  1.03it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0025
+
+Predicting STS25_Validation_0026:
+perform_everything_on_device: True
+100% 210/210 [03:27<00:00,  1.01it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0026
+
+Predicting STS25_Validation_0027:
+perform_everything_on_device: True
+100% 210/210 [03:26<00:00,  1.02it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0027
+
+Predicting STS25_Validation_0028:
+perform_everything_on_device: True
+100% 210/210 [03:27<00:00,  1.01it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0028
+
+Predicting STS25_Validation_0029:
+perform_everything_on_device: True
+100% 210/210 [03:27<00:00,  1.01it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0029
+
+Predicting STS25_Validation_0030:
+perform_everything_on_device: True
+100% 210/210 [03:27<00:00,  1.01it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0030
+
+Predicting STS25_Validation_0031:
+perform_everything_on_device: True
+100% 210/210 [03:27<00:00,  1.01it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0031
+
+Predicting STS25_Validation_0032:
+perform_everything_on_device: True
+100% 210/210 [03:27<00:00,  1.01it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0032
+
+Predicting STS25_Validation_0033:
+perform_everything_on_device: True
+100% 210/210 [03:27<00:00,  1.01it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0033
+
+Predicting STS25_Validation_0034:
+perform_everything_on_device: True
+100% 210/210 [03:25<00:00,  1.02it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0034
+
+Predicting STS25_Validation_0035:
+perform_everything_on_device: True
+100% 210/210 [03:26<00:00,  1.02it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0035
+
+Predicting STS25_Validation_0036:
+perform_everything_on_device: True
+100% 210/210 [03:27<00:00,  1.01it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0036
+
+Predicting STS25_Validation_0037:
+perform_everything_on_device: True
+100% 210/210 [03:27<00:00,  1.01it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0037
+
+Predicting STS25_Validation_0038:
+perform_everything_on_device: True
+100% 210/210 [03:27<00:00,  1.01it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0038
+
+Predicting STS25_Validation_0039:
+perform_everything_on_device: True
+100% 210/210 [03:27<00:00,  1.01it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0039
+
+Predicting STS25_Validation_0040:
+perform_everything_on_device: True
+100% 210/210 [03:26<00:00,  1.02it/s]
+sending off prediction to background worker for resampling and export
+done with STS25_Validation_0040

@@ -1,0 +1,46 @@
+********complete log output*******
+
+> Using device: cuda
+> Staging (writable) input path: /tmp/tmph09wnt9s/nnunet_input
+> Temporary working directory: /tmp/tmph09wnt9s
+> Temp output path: /tmp/tmph09wnt9s/nnunet_output
+> Processing file: STS25_Validation_0001.nii.gz
+> Copied and staged file to: /tmp/tmph09wnt9s/nnunet_input/STS25_Validation_0001_0000.nii.gz
+> Processing file: STS25_Validation_0002.nii.gz
+> Copied and staged file to: /tmp/tmph09wnt9s/nnunet_input/STS25_Validation_0002_0000.nii.gz
+> Processing file: STS25_Validation_0003.nii.gz
+> Copied and staged file to: /tmp/tmph09wnt9s/nnunet_input/STS25_Validation_0003_0000.nii.gz
+> Starting nnU-Net prediction...
+> There are 3 cases in the source folder
+> I am processing 0 out of 1 (max process ID is 0, we start counting with 0!)
+> There are 3 cases that I would like to predict
+
+> Predicting STS25_Validation_0001:
+> perform_everything_on_device: False
+> 100%|████████████████████████████████████████████████████████████████████████| 990/990 [02:37<00:00,  6.28it/s]
+> sending off prediction to background worker for resampling and export
+> done with STS25_Validation_0001
+> nnUNet_raw is not defined and nnU-Net can only be used on data for which preprocessed files are already present on your system. nnU-Net cannot be used for experiment planning and preprocessing like this. If this is not intended, please read documentation/setting_up_paths.md for information on how to set this up properly.
+> nnUNet_preprocessed is not defined and nnU-Net can not be used for preprocessing or training. If this is not intended, please read documentation/setting_up_paths.md for information on how to set this up.
+> nnUNet_results is not defined and nnU-Net cannot be used for training or inference. If this is not intended behavior, please read documentation/setting_up_paths.md for information on how to set this up.
+
+> Predicting STS25_Validation_0002:
+> perform_everything_on_device: False
+> 100%|████████████████████████████████████████████████████████████████████████| 336/336 [00:56<00:00,  5.91it/s]
+> sending off prediction to background worker for resampling and export
+> done with STS25_Validation_0002
+
+> Predicting STS25_Validation_0003:
+> perform_everything_on_device: False
+> 100%|████████████████████████████████████████████████████████████████████████| 336/336 [00:52<00:00,  6.36it/s]
+> sending off prediction to background worker for resampling and export
+> done with STS25_Validation_0003
+> nnU-Net prediction finished.
+> -> Moving labels for STS25_Validation_0001.nii.gz
+> Prediction saved to: /outputs/STS25_Validation_0001_mask.nii.gz
+> -> Moving labels for STS25_Validation_0002.nii.gz
+> Prediction saved to: /outputs/STS25_Validation_0002_mask.nii.gz
+> -> Moving labels for STS25_Validation_0003.nii.gz
+> Prediction saved to: /outputs/STS25_Validation_0003_mask.nii.gz
+> Cleaning up temporary folder: /tmp/tmph09wnt9s
+> Full processing pipeline finished successfully.

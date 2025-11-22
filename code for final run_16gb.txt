@@ -1,0 +1,4 @@
+docker run --rm \
+  -v /root/STS_Task1/Validation:/workspace/inputs \
+  -v /root/STS_Task1/Predictions:/workspace/outputs \
+  dicemed:latest /workspace/predict.sh

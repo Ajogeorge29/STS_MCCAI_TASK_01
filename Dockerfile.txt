@@ -1,0 +1,21 @@
+# Slim PyTorch runtime instead of huge NGC image
+FROM pytorch/pytorch:2.1.0-cuda11.8-cudnn8-runtime
+
+# Set working directory
+WORKDIR /workspace
+
+# Copy only requirements first (keeps layers cacheable)
+COPY requirements.txt .
+
+# Install only minimal deps for inference
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy inference scripts + trained model weights
+COPY run_inference.py predict.sh export.sh ./ 
+COPY nnUNet_results ./nnUNet_results
+
+# Make scripts executable
+RUN chmod +x predict.sh export.sh
+
+# Default entrypoint
+ENTRYPOINT ["python", "run_inference.py"]
