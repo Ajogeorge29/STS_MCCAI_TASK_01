@@ -1,5 +1,9 @@
 # MICCAI 2025 – Semi-supervised Tooth and Pulp Root Canal Segmentation in CBCT (STSR Task 1)
+
+![DemoGIF](images/3dgif.gif)
+
 This repository contains the public release of our semi-supervised framework with nnUNet.
+
 
 ## Method
 This paper presents a solution for the Semi-supervised Teeth Segmentation and Registration (STSR) 2025 Challenge, which focused on the precise segmentation of teeth and pulp root canals in 3D Cone Beam Computed Tomography (CBCT) scans. 
